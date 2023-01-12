@@ -6,7 +6,6 @@ $(function(){
     let constraints = {
         video: {},
         audio: true
-        
     };
     constraints.video.width = {
         min: 640,
