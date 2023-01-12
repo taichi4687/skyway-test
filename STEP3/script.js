@@ -16,9 +16,6 @@ $(function(){
         min: 480,
         max: 480        
     };
-    constraints.video.facingMode = {
-        exact: 'environment'
-    }
 
     navigator.mediaDevices.getUserMedia(constraints)
         .then(function (stream) {
