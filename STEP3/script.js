@@ -8,11 +8,11 @@ $(function(){
         audio: true
     };
     constraints.video.width = {
-        min: 200,
+        min: 640,
         max: 640
     };
     constraints.video.height = {
-        min: 150,
+        min: 480,
         max: 480        
     };
     constraints.video.facingMode = {
