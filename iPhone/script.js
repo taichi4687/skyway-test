@@ -13,12 +13,12 @@ $(function(){
         
     };
     constraints.video.width = {
-        min: 160,
-        max: 160
+        min: 120,
+        max: 120
     };
     constraints.video.height = {
-        min: 120,
-        max: 120        
+        min: 90,
+        max: 90        
     };
 
     navigator.mediaDevices.getUserMedia(constraints)
