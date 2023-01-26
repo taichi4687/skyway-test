@@ -8,12 +8,12 @@ $(function(){
         audio: true
     };
     constraints.video.width = {
-        min: 640,
-        max: 640
+        min: 560,
+        max: 560
     };
     constraints.video.height = {
-        min: 480,
-        max: 480        
+        min: 420,
+        max: 420        
     };
     constraints.video.facingMode = {
         exact: "environment"
